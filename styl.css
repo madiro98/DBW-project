@@ -11,7 +11,7 @@ foreground           rgb(201, 192, 228);
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    color: rgb(88, 76, 119);
+    color: #3b3a30 ;
 }
 
 
@@ -20,7 +20,7 @@ foreground           rgb(201, 192, 228);
     height: 70%;
     margin: 5% 10%;
     box-shadow: 3px 3px 15px grey;
-    background: rgb(242, 226, 255);
+    background:  #f0efef;
 }
 
 
@@ -39,13 +39,13 @@ foreground           rgb(201, 192, 228);
 }
 
 .info{
-    color: rgb(201, 192, 228);
+    color: #3b3a30 ;
     height: 100%;
     width: 39%;
     /* width: 25%; */
     /* margin: 5%; */
     /* padding: 2rem 2rem 0 2rem; */
-    background: rgb(88, 76, 119);
+    background: #c2d4dd;
 }
 .con-form{
     width: 60%;
@@ -104,23 +104,23 @@ h2, .form input, .form textarea, #sbmt-btn{
     padding: 2%;
 }
 input, textarea{
-    background: rgb(201, 192, 228);
+    background: #c2d4dd;
 }
 ::placeholder{
-    color: rgb(88, 76, 119);
+    color: #3b3a30;
 }
 
 h2{
     text-transform: uppercase;
 }
 .con-form h2{
-    color: rgb(88, 76, 119);
+    color: #3b3a30 ;
 }
 #sbmt-btn{
     padding: 1em 10em ;
     color: rgb(201, 192, 228);
     width: 94%;
-    background: rgb(88, 76, 119);
+    background: #3b3a30;
     /* margin-bottom: 20%; */
 }
 /* h2, form input, form textarea{
