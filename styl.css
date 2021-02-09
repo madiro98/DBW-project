@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 
+background           rgb(88, 76, 119);
+foreground           rgb(201, 192, 228); 
+*/
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(88, 76, 119);
+}
+
+
+#contact{
+    width: 80%;
+    height: 70%;
+    margin: 5% 10%;
+    box-shadow: 3px 3px 15px grey;
+    background: rgb(242, 226, 255);
+}
+
+
+.con-box{
+    display: inline-block;
+}
+/* .icon{
+    color: rgb(88, 76, 119);
+    background: rgb(242, 226, 255);
+} */
+.info, .con-form{
+    /* display: inline-block; */
+    /* width: 49%; */
+    /* height: 100%; */
+    
+}
+
+.info{
+    color: rgb(201, 192, 228);
+    height: 100%;
+    width: 39%;
+    /* width: 25%; */
+    /* margin: 5%; */
+    /* padding: 2rem 2rem 0 2rem; */
+    background: rgb(88, 76, 119);
+}
+.con-form{
+    width: 60%;
+    /* padding-top: -5%;
+    margin-top: -10%; */
+    /* float: inline-start;
+    float: unset; */
+    /* padding: 2rem 2rem 0 2rem; */
+    /* height: 100%; */
+    /* margin-top: 0;
+    padding-top: 0; */
+    /* background: #000; */
+}
+.con{
+  padding: 5%;  
+}
+.con h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+.info ul li{
+    list-style: none;
+    margin: 8% 0;
+}
+.social-media{
+    margin-top: 30%;
+}
+.social-media ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5%;
+}
+.social-media ul li img{
+    width: 165%;
+    
+}
+/* .social-media ul li a{
+    text-decoration: none;
+    color: white;
+} */
+
+/* .icon{
+    display: inline-block;
+    padding: 1rem 1rem;
+} */
+/* .address, .cell, .email, .more{
+    width: 40%;
+} */
+
+h2, .form input, .form textarea, #sbmt-btn{
+    display: block;
+    border: none;
+    /* align-items: center; */
+    margin:5%;
+    width: 90%;
+    padding: 2%;
+}
+input, textarea{
+    background: rgb(201, 192, 228);
+}
+::placeholder{
+    color: rgb(88, 76, 119);
+}
+
+h2{
+    text-transform: uppercase;
+}
+.con-form h2{
+    color: rgb(88, 76, 119);
+}
+#sbmt-btn{
+    padding: 1em 10em ;
+    color: rgb(201, 192, 228);
+    width: 94%;
+    background: rgb(88, 76, 119);
+    /* margin-bottom: 20%; */
+}
+/* h2, form input, form textarea{
+    
+} */
+/* #sbmt-btn{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background: #000;
+} */
+/* input[type=submit]{
+    padding: 2%;
+
+}
+input[type=text]{
+    padding: 2%;
+}
+input[type=email]{
+    padding: 2%;
+}
+textarea{
+    padding: 2%;
+} */
+
+@media (max-width:1024px){
+    #contact{
+        width: 100%;
+        /* height: 70%; */
+        margin: 0;
+        background: none;
+    }
+    .info, .con-form{
+        /* display: inline-block; */
+        width: 100%;
+        height: 80%;
+        
+    }
+    .social-media{
+        margin-top: 10%;
+    }
+}
